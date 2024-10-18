@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Инструкция | Fizz VPN</title>
+<meta name="keywords" content="">
+<meta name="description" content="Инструкция по установке и настройке">
+<meta name="author" content="Fizz VPN">
+<link rel="canonical" href="index.html">
+<link crossorigin="anonymous" href="https://fizzvpn.io/assets/css/stylesheet.3bb5c504bba06b417b6fbe0b8a20afb9e89636fb5e8ebffb1ff954678de9899c.css" integrity="sha256-O7XFBLuga0F7b74LiiCvueiWNvtejr/7H/lUZ43piZw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://fizzvpn.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://fizzvpn.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://fizzvpn.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://fizzvpn.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://fizzvpn.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ru" href="index.html">
+<link rel="alternate" hreflang="en" href="https://fizzvpn.io/en/install-guide/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Инструкция" />
+<meta property="og:description" content="Инструкция по установке и настройке" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fizzvpn.io/install-guide/" /><meta property="article:section" content="" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Инструкция"/>
+<meta name="twitter:description" content="Инструкция по установке и настройке"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Инструкция",
+      "item": "https://fizzvpn.io/install-guide/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Инструкция",
+  "name": "Инструкция",
+  "description": "Инструкция по установке и настройке",
+  "keywords": [
+    
+  ],
+  "articleBody": "❗️ВАЖНАЯ ИНФОРМАЦИЯ❗️ Подписка — это ключ-ссылка, которую вы получаете, вида https://get…\nПереходить по ней не надо!\nВся информация о новых локациях, изменении серверов, необходимости обновить подписку и т.д. тут:\nНаш Telegram Канал\nПолучение подписки может занимать до 10 секунд.\nВ случае, если вместо какого-то из серверов появилась надпись:\n⛔ XX UNAVAILABLE ⛔\nто необходимо повторно обновить подписку. Если не помогло, то значит в данный момент сервер недоступен.\nWindows 10/11, Linux NekoRay Установите последний релиз для своей ОС.\nСкачать: GitHub\nЗапускаете программу согласно своей ОС. На Windows это nekoray.exe\nВажно! Запускайте с правами администратора (потребуются для режима VPN).\nПосле запуска необходимо подкорректировать настройки (для устранения утечки DNS).\nДля этого выбираете в меню “Настройки” -\u003e “Настройки TUN-режима”. В открывшемся окне необходимо поставить галочку “Strict Route” и нажать OK.\nТакже убедитесь, что значение stack - gvisor. C mixed и system могут возникать проблемы.\nКопируете подписку и выбираете в меню “Программа” -\u003e “Добавить профиль из буфера обмена”. В открывшемся окне выбираете “Как подписку (добавить новую группу)” и нажимаете OK. Далее “Настройки” -\u003e “Группы” и удаляете группу По умолчанию.**\nВыбираете в меню “Программа” -\u003e “Запомнить последний профиль”. Далее обязательно ставите галочку “Режим TUN” в правом верхнем углу, затем выбираете сервер, “ПКМ” -\u003e “Запустить”.\nЕсли вам нужен VPN только для браузера, то можете выбрать режим в «Системный прокси».\nВажно! После отключения необходимо снимать галочку «Системный прокси», иначе интернета не будет.\nЕсли у вас возникают проблемы с подключением, то необходимо: Перейти в “Настройки” -\u003e “Настройки маршрутов” -\u003e “DNS” и изменить DNS для “прямых” запросов на на:\n9.9.9.9, если не поможет, то https://9.9.9.9/dns-query\nРаздельное туннелирование: Whitelist Выбранные программы через VPN, все остальное без VPN\nПеред настройкой убедитесь, что VPN работает!\nОткрываете Настройки -\u003e Настройки маршрутов -\u003e вкладка Route. Нажимаете New.\nВ открывшемся окне вводите любое имя профиля, нажимаете New, выбираете Attribute: process_name и Outbound: proxy. В окне снизу справа вводите процессы, который хотите чтобы работали через VPN, по одному на строчке.\nДважды нажимаете ОК, и после этого перезапускаете программу через трей (это важно). Далее Открываете Настройки -\u003e Настройки маршрутов -\u003e вкладка Общие. Устанавливаете новосозданный профиль в поле Routing Profile, ниже Outbound по-умолчанию выбираете direct.\nРаздельное туннелирование: Blacklist Все через VPN, кроме выбранных программ\nПеред настройкой убедитесь, что VPN работает!\nОткрываете Настройки -\u003e Настройки маршрутов -\u003e вкладка Route. Нажимаете New.\nВ открывшемся окне вводите любое имя профиля, нажимаете New, выбираете Attribute: process_name и Outbound: direct. В окне снизу справа вводите процессы, который хотите чтобы работали без VPN, по одному на строчке.\nДважды нажимаете ОК, и после этого перезапускаете программу через трей (это важно). Далее Открываете Настройки -\u003e Настройки маршрутов -\u003e вкладка Общие. Устанавливаете новосозданный профиль в поле Routing Profile.\nHiddify Next Установите последний релиз для своей ОС.\nСкачать: GitHub Для Windows рекомендуем версию Portable (достаточно распаковать и запустить) или Setup (с установкой).\nЗапускаете программу согласно своей ОС. На Windows это Hiddify.exe\nВажно! Запускайте с правами администратора (потребуются для режима VPN).\nРегион: Для РФ рекомендуем выбрать регион “Россия”, во всех остальных случаях “Другой”.\nПри выборе региона “Россия” доступ ко всем .RU и .РФ сайтам, сервисам VK и Yandex будет “напрямую”(без VPN).\n❗️ПОЭТОМУ НЕ ИСПОЛЬЗУЙТЕ 2ip.ru ДЛЯ ПРОВЕРКИ ЛОКАЦИИ❗️\nСбор аналитики: рекомендуем отключить.\nКопируете подписку и нажимаете “Новый профиль” на открывшемся экране. Далее “Добавить профиль из буфера обмена”.\nВ правом в верхнем углу нажимаете на иконку “Настройки” и выбираете режим “VPN”.\nЕсли вам нужен VPN только для браузера, то можете оставить его в «Системном прокси».\nПодключаетесь, переходите на вкладку Прокси и Выбираете сервер.\nЕсли у вас возникают проблемы с подключением, то необходимо: Перейти во вкладку Параметры конфигурации, найти пункт Прямой DNS и изменить его на:\n9.9.9.9, если не поможет, то https://9.9.9.9/dns-query\nСмена сервера может занимать до 10 секунд. Также рекомендуется проверить задержку серверов повторно, нажав на иконку Молнии справа внизу. Hiddify всегда “завышает” задержку в разы и даже может показать что сервер недоступен, хотя это не так.\nДругие клиенты Invisible Man - XRay: https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases iOS/Mac Streisand Скачать: App Store Копируете полученную подписку и далее по инструкции:\nДля обновления существующей подписки необходимо сделать долгий тап по “Subscription”, внутри будет кнопка “Обновить”.\nShadowrocket [249 ₽] Купить: App Store Копируете полученную подписку и далее по инструкции:\nV2Box Данное приложение устаналивать, только если другие не работают!\nДля MacOS существует альтернатива по инструкции Hiddify Next для Win 10/11, только скачиваете пакет DMG.\nСкачать: App Store Копируете полученную подписку и далее по инструкции:\nAndroid Hiddify Скачать: GitHub (APK Universal)\nНе устанавливайте версию из Play Маркет! В данный момент версия с Github работает лучше.\nРегион: Для РФ рекомендуем выбрать регион “Россия”, во всех остальных случаях “Другой”.\nПри выборе региона “Россия” доступ ко всем .RU и .РФ сайтам, сервисам VK и Yandex будет “напрямую”(без VPN). Поэтому для проверки локации не используйте 2ip.ru.\nДалее копируете полученную подписку и добавляете как показано ниже. После добавления переключитесь на вкладку “Прокси” и выберите желаемую локацию.\nЕсли у вас возникают проблемы с подключением, то необходимо: Перейти во вкладку Параметры конфигурации, найти пункт Прямой DNS и изменить его на:\n9.9.9.9, если не поможет, то https://9.9.9.9/dns-query\nv2rayNG Скачать: Play Store Копируете полученную подписку и далее по инструкции:\nОбновление подписки Hiddify NekoRay Streisand V2Box v2rayNG Все готово! ",
+  "wordCount" : "830",
+  "inLanguage": "ru",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Fizz VPN"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://fizzvpn.io/install-guide/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fizz VPN",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://fizzvpn.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://fizzvpn.io" accesskey="h" title="Fizz VPN (Alt + H)">Fizz VPN</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+
+                
+                
+                    
+                    
+                    
+
+                    
+
+                    <ul class="lang-switch">
+                        <li>|</li>
+                        
+
+                            
+                            
+                        
+
+                            
+                            
+                                
+                                
+                                    
+                                        
+                                    
+                                
+
+                                <li>
+                                    <a href="https://fizzvpn.io/en/install-guide/"
+                                    title="English"
+                                    aria-label="English">
+                                        
+                                            EN
+                                        
+										
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32"><rect x="1" y="4" width="30" height="24" rx="4" ry="4" fill="#071b65"></rect>
+										<path d="M5.101,4h-.101c-1.981,0-3.615,1.444-3.933,3.334L26.899,28h.101c1.981,0,3.615-1.444,3.933-3.334L5.101,4Z" fill="#fff"></path>
+										<path d="M22.25,19h-2.5l9.934,7.947c.387-.353,.704-.777,.929-1.257l-8.363-6.691Z" fill="#b92932"></path>
+										<path d="M1.387,6.309l8.363,6.691h2.5L2.316,5.053c-.387,.353-.704,.777-.929,1.257Z" fill="#b92932"></path>
+										<path d="M5,28h.101L30.933,7.334c-.318-1.891-1.952-3.334-3.933-3.334h-.101L1.067,24.666c.318,1.891,1.952,3.334,3.933,3.334Z" fill="#fff"></path>
+										<rect x="13" y="4" width="6" height="24" fill="#fff"></rect>
+										<rect x="1" y="13" width="30" height="6" fill="#fff"></rect>
+										<rect x="14" y="4" width="4" height="24" fill="#b92932"></rect>
+										<rect x="14" y="1" width="4" height="30" transform="translate(32) rotate(90)" fill="#b92932"></rect><path d="M28.222,4.21l-9.222,7.376v1.414h.75l9.943-7.94c-.419-.384-.918-.671-1.471-.85Z" fill="#b92932"></path>
+										<path d="M2.328,26.957c.414,.374,.904,.656,1.447,.832l9.225-7.38v-1.408h-.75L2.328,26.957Z" fill="#b92932"></path>
+										<path d="M27,4H5c-2.209,0-4,1.791-4,4V24c0,2.209,1.791,4,4,4H27c2.209,0,4-1.791,4-4V8c0-2.209-1.791-4-4-4Zm3,20c0,1.654-1.346,3-3,3H5c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3H27c1.654,0,3,1.346,3,3V24Z" opacity=".15"></path>
+										<path d="M27,5H5c-1.657,0-3,1.343-3,3v1c0-1.657,1.343-3,3-3H27c1.657,0,3,1.343,3,3v-1c0-1.657-1.343-3-3-3Z" fill="#fff" opacity=".2"></path>
+										</svg>
+										
+                                    </a>
+                                </li>
+                            
+                        
+                    </ul>
+                
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://fizzvpn.io">Вернуться на Главную</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Инструкция
+    </h1>
+    <div class="post-description">
+      Инструкция по установке и настройке
+    </div>
+    <div class="post-meta">
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Оглавление</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="index.html#%d0%b2%d0%b0%d0%b6%d0%bd%d0%b0%d1%8f-%d0%b8%d0%bd%d1%84%d0%be%d1%80%d0%bc%d0%b0%d1%86%d0%b8%d1%8f" aria-label="❗️ВАЖНАЯ ИНФОРМАЦИЯ❗️">❗️ВАЖНАЯ ИНФОРМАЦИЯ❗️</a></li>
+                <li>
+                    <a href="index.html#windows-1011-linux" aria-label="Windows 10/11, Linux">Windows 10/11, Linux</a><ul>
+                        
+                <li>
+                    <a href="index.html#nekoray" aria-label="NekoRay">NekoRay</a><ul>
+                        
+                <li>
+                    <a href="index.html#%d1%80%d0%b0%d0%b7%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d1%82%d1%83%d0%bd%d0%bd%d0%b5%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-whitelist" aria-label="Раздельное туннелирование: Whitelist">Раздельное туннелирование: Whitelist</a></li>
+                <li>
+                    <a href="index.html#%d1%80%d0%b0%d0%b7%d0%b4%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d0%b5-%d1%82%d1%83%d0%bd%d0%bd%d0%b5%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-blacklist" aria-label="Раздельное туннелирование: Blacklist">Раздельное туннелирование: Blacklist</a></li></ul>
+                </li>
+                <li>
+                    <a href="index.html#hiddify-next" aria-label="Hiddify Next">Hiddify Next</a></li>
+                <li>
+                    <a href="index.html#%d0%b4%d1%80%d1%83%d0%b3%d0%b8%d0%b5-%d0%ba%d0%bb%d0%b8%d0%b5%d0%bd%d1%82%d1%8b" aria-label="Другие клиенты">Другие клиенты</a></li></ul>
+                </li>
+                <li>
+                    <a href="index.html#iosmac" aria-label="iOS/Mac">iOS/Mac</a><ul>
+                        
+                <li>
+                    <a href="index.html#streisand" aria-label="Streisand">Streisand</a></li>
+                <li>
+                    <a href="index.html#shadowrocket-249-" aria-label="Shadowrocket [249 ₽]">Shadowrocket [249 ₽]</a></li>
+                <li>
+                    <a href="index.html#v2box" aria-label="V2Box">V2Box</a></li></ul>
+                </li>
+                <li>
+                    <a href="index.html#android" aria-label="Android">Android</a><ul>
+                        
+                <li>
+                    <a href="index.html#hiddify" aria-label="Hiddify">Hiddify</a></li>
+                <li>
+                    <a href="index.html#v2rayng" aria-label="v2rayNG">v2rayNG</a></li></ul>
+                </li>
+                <li>
+                    <a href="index.html#%d0%be%d0%b1%d0%bd%d0%be%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d0%bf%d0%be%d0%b4%d0%bf%d0%b8%d1%81%d0%ba%d0%b8" aria-label="Обновление подписки">Обновление подписки</a><ul>
+                        
+                <li>
+                    <a href="index.html#hiddify-1" aria-label="Hiddify">Hiddify</a></li>
+                <li>
+                    <a href="index.html#nekoray-1" aria-label="NekoRay">NekoRay</a></li>
+                <li>
+                    <a href="index.html#streisand-1" aria-label="Streisand">Streisand</a></li>
+                <li>
+                    <a href="index.html#v2box-1" aria-label="V2Box">V2Box</a></li>
+                <li>
+                    <a href="index.html#v2rayng-1" aria-label="v2rayNG">v2rayNG</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="важная-информация">❗️ВАЖНАЯ ИНФОРМАЦИЯ❗️<a hidden class="anchor" aria-hidden="true" href="index.html#важная-информация">#</a></h1>
+<ol>
+<li>
+<p><strong>Подписка — это ключ-ссылка</strong>, которую вы получаете, вида <em>https://get&hellip;</em></p>
+<blockquote>
+<p><em><strong>Переходить по ней не надо!</strong></em></p>
+</blockquote>
+</li>
+<li>
+<p>Вся информация о новых локациях, изменении серверов, необходимости обновить подписку и т.д. тут:</p>
+<blockquote>
+<p><a href="https://t.me/FizzVPN">Наш Telegram Канал</a></p>
+</blockquote>
+</li>
+<li>
+<p>Получение подписки может занимать <strong>до 10 секунд.</strong></p>
+</li>
+<li>
+<p>В случае, если вместо какого-то из серверов появилась надпись:</p>
+<blockquote>
+<p>⛔ <strong>XX UNAVAILABLE</strong> ⛔</p>
+</blockquote>
+<p>то необходимо повторно обновить подписку. Если не помогло, то значит в данный момент сервер недоступен.</p>
+</li>
+</ol>
+<h1 id="windows-1011-linux">Windows 10/11, Linux<a hidden class="anchor" aria-hidden="true" href="index.html#windows-1011-linux">#</a></h1>
+<h2 id="nekoray">NekoRay<a hidden class="anchor" aria-hidden="true" href="index.html#nekoray">#</a></h2>
+<ol>
+<li>
+<p>Установите последний релиз для <strong>своей ОС</strong>.</p>
+<p><img src="nekoray-github.png" alt="NekoRay Github"  />
+</p>
+<p><strong>Скачать:</strong> 
+<a  href="https://github.com/Mahdi-zarei/nekoray/releases" target="_blank" title="GitHub">GitHub</a><br><br>
+</p>
+</li>
+<li>
+<p>Запускаете программу согласно своей ОС. На Windows это <strong><code>nekoray.exe</code></strong></p>
+<blockquote>
+<p><strong>Важно!</strong> Запускайте <em><strong>с правами администратора</strong></em> <em>(потребуются для режима VPN)</em>.</p>
+</blockquote>
+</li>
+<li>
+<p><strong>После запуска необходимо подкорректировать настройки</strong> <em>(для устранения утечки DNS)</em>.<br>
+Для этого выбираете в меню &ldquo;Настройки&rdquo; -&gt; &ldquo;Настройки TUN-режима&rdquo;. В открывшемся окне необходимо поставить галочку &ldquo;Strict Route&rdquo; и нажать OK.</p>
+<blockquote>
+<p>Также убедитесь, что значение <strong>stack</strong> - <strong>gvisor</strong>. C mixed и system могут возникать проблемы.</p>
+</blockquote>
+<p><img src="nekoray-1.gif" alt="NekoRay-1"  />
+</p>
+</li>
+<li>
+<p>Копируете подписку и выбираете в меню <strong>&ldquo;Программа&rdquo; -&gt; &ldquo;Добавить профиль из буфера обмена&rdquo;</strong>. В открывшемся окне выбираете <strong>&ldquo;Как подписку (добавить новую группу)&rdquo;</strong> и нажимаете <strong>OK</strong>. Далее <strong>&ldquo;Настройки&rdquo; -&gt; &ldquo;Группы&rdquo;</strong> и удаляете группу <strong>По умолчанию</strong>.**</p>
+<p><img src="nekoray-2-1.gif" alt="NekoRay-2"  />
+</p>
+</li>
+<li>
+<p>Выбираете в меню <strong>&ldquo;Программа&rdquo; -&gt; &ldquo;Запомнить последний профиль&rdquo;</strong>. Далее обязательно ставите галочку <strong>&ldquo;Режим TUN&rdquo;</strong> в правом верхнем углу, затем выбираете сервер, <strong>&ldquo;ПКМ&rdquo; -&gt; &ldquo;Запустить&rdquo;</strong>.</p>
+<blockquote>
+<p>Если вам нужен VPN только для браузера, то можете выбрать режим в <strong>«Системный прокси»</strong>.</p>
+</blockquote>
+<blockquote>
+<p><strong>Важно!</strong> После отключения необходимо снимать галочку <strong>«Системный прокси»</strong>, иначе <strong>интернета не будет</strong>.</p>
+</blockquote>
+<p><img src="nekoray-3.gif" alt="NekoRay-3"  />
+</p>
+<blockquote>
+<p>Если у вас возникают проблемы с подключением, то необходимо:
+Перейти в <strong>&ldquo;Настройки&rdquo; -&gt; &ldquo;Настройки маршрутов&rdquo; -&gt; &ldquo;DNS&rdquo;</strong> и изменить <strong>DNS для &ldquo;прямых&rdquo; запросов на</strong> на:</p>
+</blockquote>
+<p><strong><code>9.9.9.9</code>, если не поможет, то <code>https://9.9.9.9/dns-query</code></strong></p>
+</li>
+</ol>
+<hr>
+<h3 id="раздельное-туннелирование-whitelist">Раздельное туннелирование: Whitelist<a hidden class="anchor" aria-hidden="true" href="index.html#раздельное-туннелирование-whitelist">#</a></h3>
+<p><em><strong>Выбранные программы через VPN, все остальное без VPN</strong></em></p>
+<blockquote>
+<p><strong>Перед настройкой убедитесь, что VPN работает!</strong></p>
+</blockquote>
+<ol>
+<li>
+<p>Открываете <strong>Настройки -&gt; Настройки маршрутов -&gt; вкладка Route</strong>. Нажимаете New.</p>
+<p><img src="nekoray-whitelist-1.png" alt="NekoRay-Whitelist-1"  />
+</p>
+</li>
+<li>
+<p>В открывшемся окне вводите <strong>любое имя профиля</strong>, нажимаете <strong>New</strong>, выбираете <em>Attribute</em>: <strong>process_name</strong> и <em>Outbound</em>: <strong>proxy</strong>. В окне снизу справа вводите <strong>процессы, который хотите чтобы работали через VPN, по одному на строчке</strong>.</p>
+<p><img src="nekoray-whitelist-2.png" alt="NekoRay-Whitelist-2"  />
+</p>
+</li>
+<li>
+<p>Дважды нажимаете <strong>ОК</strong>, и после этого <strong>перезапускаете программу через трей (это важно)</strong>. Далее Открываете <strong>Настройки -&gt; Настройки маршрутов -&gt; вкладка Общие</strong>. Устанавливаете новосозданный профиль в поле <strong>Routing Profile</strong>, ниже <strong>Outbound по-умолчанию</strong> выбираете <strong>direct</strong>.</p>
+<p><img src="nekoray-whitelist-3.png" alt="NekoRay-Whitelist-3"  />
+</p>
+</li>
+</ol>
+<hr>
+<h3 id="раздельное-туннелирование-blacklist">Раздельное туннелирование: Blacklist<a hidden class="anchor" aria-hidden="true" href="index.html#раздельное-туннелирование-blacklist">#</a></h3>
+<p><em><strong>Все через VPN, кроме выбранных программ</strong></em></p>
+<blockquote>
+<p><strong>Перед настройкой убедитесь, что VPN работает!</strong></p>
+</blockquote>
+<ol>
+<li>
+<p>Открываете <strong>Настройки -&gt; Настройки маршрутов -&gt; вкладка Route</strong>. Нажимаете New.</p>
+<p><img src="nekoray-whitelist-1.png" alt="NekoRay-Whitelist-1"  />
+</p>
+</li>
+<li>
+<p>В открывшемся окне вводите <strong>любое имя профиля</strong>, нажимаете <strong>New</strong>, выбираете <em>Attribute</em>: <strong>process_name</strong> и <em>Outbound</em>: <strong>direct</strong>. В окне снизу справа вводите <strong>процессы, который хотите чтобы работали без VPN, по одному на строчке</strong>.</p>
+<p><img src="nekoray-blacklist-1.png" alt="NekoRay-Whitelist-2"  />
+</p>
+</li>
+<li>
+<p>Дважды нажимаете <strong>ОК</strong>, и после этого <strong>перезапускаете программу через трей (это важно)</strong>. Далее Открываете <strong>Настройки -&gt; Настройки маршрутов -&gt; вкладка Общие</strong>. Устанавливаете новосозданный профиль в поле <strong>Routing Profile</strong>.</p>
+<p><img src="nekoray-blacklist-2.png" alt="NekoRay-Whitelist-3"  />
+</p>
+</li>
+</ol>
+<hr>
+<h2 id="hiddify-next">Hiddify Next<a hidden class="anchor" aria-hidden="true" href="index.html#hiddify-next">#</a></h2>
+<ol>
+<li>
+<p><strong>Установите последний релиз для своей ОС.</strong></p>
+<p><img src="hiddify-github-pc.png" alt="Hiddify Next Github"  />
+</p>
+<p><strong>Скачать:</strong> 
+<a  href="https://github.com/hiddify/hiddify-next/releases" target="_blank" title="GitHub">GitHub</a>
+</p>
+<blockquote>
+<p>Для Windows рекомендуем версию <strong>Portable</strong> (достаточно распаковать и запустить) или <strong>Setup</strong> (с установкой).</p>
+</blockquote>
+</li>
+<li>
+<p><strong>Запускаете программу согласно своей ОС. На Windows это <code>Hiddify.exe</code></strong></p>
+<blockquote>
+<p><strong>Важно!</strong> Запускайте <em><strong>с правами администратора</strong></em> <em>(потребуются для режима VPN)</em>.</p>
+</blockquote>
+<p><img src="hiddify-1.png" alt="Hiddify-1"  />
+</p>
+<p><strong>Регион</strong>:
+Для РФ рекомендуем выбрать регион &ldquo;Россия&rdquo;, во всех остальных случаях &ldquo;Другой&rdquo;.</p>
+<blockquote>
+<p><strong>При выборе региона &ldquo;Россия&rdquo; доступ ко всем .RU и .РФ сайтам, сервисам VK и Yandex будет &ldquo;напрямую&rdquo;(без VPN).</strong><br>
+<strong>❗️ПОЭТОМУ НЕ ИСПОЛЬЗУЙТЕ 2ip.ru ДЛЯ ПРОВЕРКИ ЛОКАЦИИ❗️</strong></p>
+</blockquote>
+<blockquote>
+<p><em><strong>Сбор аналитики</strong></em>: рекомендуем отключить.</p>
+</blockquote>
+</li>
+<li>
+<p><strong>Копируете подписку и нажимаете &ldquo;Новый профиль&rdquo; на открывшемся экране. Далее &ldquo;Добавить профиль из буфера обмена&rdquo;.</strong></p>
+<p><img src="hiddify-2.gif" alt="Hiddify-1"  />
+</p>
+</li>
+<li>
+<p><strong>В правом в верхнем углу нажимаете на иконку &ldquo;Настройки&rdquo; и выбираете режим &ldquo;VPN&rdquo;.</strong></p>
+<blockquote>
+<p>Если вам нужен VPN только для браузера, то можете оставить его в «Системном прокси».</p>
+</blockquote>
+<p><img src="hiddify-3.png" alt="Hiddify-4"  />
+</p>
+</li>
+<li>
+<p><strong>Подключаетесь, переходите на вкладку <em><strong>Прокси</strong></em> и <em><strong>Выбираете сервер</strong></em>.</strong></p>
+<p><img src="hiddify-4.png" alt="Hiddify-5"  />
+</p>
+<blockquote>
+<p>Если у вас возникают проблемы с подключением, то необходимо:
+Перейти во вкладку <strong>Параметры конфигурации</strong>, найти пункт <strong>Прямой DNS</strong> и изменить его на:</p>
+</blockquote>
+<p><strong><code>9.9.9.9</code>, если не поможет, то <code>https://9.9.9.9/dns-query</code></strong></p>
+<blockquote>
+<p>Смена сервера может занимать до 10 секунд. Также рекомендуется проверить задержку серверов повторно, нажав на иконку Молнии справа внизу. Hiddify всегда &ldquo;завышает&rdquo; задержку в разы и даже может показать что сервер недоступен, хотя это не так.</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="другие-клиенты">Другие клиенты<a hidden class="anchor" aria-hidden="true" href="index.html#другие-клиенты">#</a></h2>
+<p><strong>Invisible Man - XRay</strong>: 
+<a  href="https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases" target="_blank" title="GitHub">https://github.com/InvisibleManVPN/InvisibleMan-XRayClient/releases</a>
+</p>
+<hr>
+<h1 id="iosmac">iOS/Mac<a hidden class="anchor" aria-hidden="true" href="index.html#iosmac">#</a></h1>
+<hr>
+<h2 id="streisand">Streisand<a hidden class="anchor" aria-hidden="true" href="index.html#streisand">#</a></h2>
+<p><strong>Скачать:</strong> 
+<a  href="https://apps.apple.com/ru/app/streisand/id6450534064" target="_blank" title="App Store">App Store</a>
+</p>
+<p>Копируете полученную подписку и далее по инструкции:</p>
+<p><img src="streisand.png" alt="Streisand"  />
+</p>
+<p><em>Для обновления существующей подписки необходимо сделать долгий тап по &ldquo;Subscription&rdquo;, внутри будет кнопка &ldquo;Обновить&rdquo;.</em></p>
+<hr>
+<h2 id="shadowrocket-249-">Shadowrocket [249 ₽]<a hidden class="anchor" aria-hidden="true" href="index.html#shadowrocket-249-">#</a></h2>
+<p><strong>Купить:</strong> 
+<a  href="https://apps.apple.com/ru/app/shadowrocket/id932747118" target="_blank" title="App Store">App Store</a>
+</p>
+<p>Копируете полученную подписку и далее по инструкции:</p>
+<p><img src="shadowrocket.png" alt="Shadowrocket"  />
+</p>
+<hr>
+<h2 id="v2box">V2Box<a hidden class="anchor" aria-hidden="true" href="index.html#v2box">#</a></h2>
+<p><strong>Данное приложение устаналивать, только если другие не работают!</strong></p>
+<blockquote>
+<p>Для MacOS существует альтернатива по инструкции Hiddify Next для Win 10/11, только скачиваете пакет DMG.</p>
+</blockquote>
+<p><strong>Скачать:</strong> 
+<a  href="https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690" target="_blank" title="App Store">App Store</a>
+</p>
+<p>Копируете полученную подписку и далее по инструкции:</p>
+<p><img src="v2box.png" alt="v2box"  />
+</p>
+<hr>
+<h1 id="android">Android<a hidden class="anchor" aria-hidden="true" href="index.html#android">#</a></h1>
+<h2 id="hiddify">Hiddify<a hidden class="anchor" aria-hidden="true" href="index.html#hiddify">#</a></h2>
+<p><strong>Скачать:</strong> 
+<a  href="https://github.com/hiddify/hiddify-next/releases/tag/v2.5.7" target="_blank" title="GitHub">GitHub</a>
+(APK Universal)</p>
+<blockquote>
+<p><strong>Не устанавливайте версию из Play Маркет! В данный момент версия с Github работает лучше.</strong></p>
+</blockquote>
+<p><strong>Регион</strong>: Для РФ рекомендуем выбрать регион &ldquo;Россия&rdquo;, во всех остальных случаях &ldquo;Другой&rdquo;.</p>
+<blockquote>
+<p><strong>При выборе региона &ldquo;Россия&rdquo; доступ ко всем .RU и .РФ сайтам, сервисам VK и Yandex будет &ldquo;напрямую&rdquo;(без VPN).</strong>
+Поэтому для проверки локации не используйте 2ip.ru.</p>
+</blockquote>
+<p>Далее копируете полученную подписку и добавляете как показано ниже. После добавления переключитесь на вкладку &ldquo;Прокси&rdquo; и выберите желаемую локацию.</p>
+<p><img src="hiddify-android.png" alt="Hiddify"  />
+</p>
+<blockquote>
+<p>Если у вас возникают проблемы с подключением, то необходимо:
+Перейти во вкладку <strong>Параметры конфигурации</strong>, найти пункт <strong>Прямой DNS</strong> и изменить его на:</p>
+</blockquote>
+<p><strong><code>9.9.9.9</code>, если не поможет, то <code>https://9.9.9.9/dns-query</code></strong></p>
+<hr>
+<h2 id="v2rayng">v2rayNG<a hidden class="anchor" aria-hidden="true" href="index.html#v2rayng">#</a></h2>
+<p><strong>Скачать:</strong> 
+<a  href="https://play.google.com/store/apps/details?id=com.v2ray.ang" target="_blank" title="Play Store">Play Store</a>
+</p>
+<p>Копируете полученную подписку и далее по инструкции:</p>
+<p><img src="v2rayNG.png" alt="v2rayNG"  />
+</p>
+<hr>
+<h1 id="обновление-подписки">Обновление подписки<a hidden class="anchor" aria-hidden="true" href="index.html#обновление-подписки">#</a></h1>
+<h2 id="hiddify-1">Hiddify<a hidden class="anchor" aria-hidden="true" href="index.html#hiddify-1">#</a></h2>
+<p><img src="hiddify-update.png" alt="Hiddify"  />
+</p>
+<h2 id="nekoray-1">NekoRay<a hidden class="anchor" aria-hidden="true" href="index.html#nekoray-1">#</a></h2>
+<p><img src="nekoray-update-1.png" alt="NekoRay"  />
+</p>
+<h2 id="streisand-1">Streisand<a hidden class="anchor" aria-hidden="true" href="index.html#streisand-1">#</a></h2>
+<p><img src="streisand-update.png" alt="Streisand"  />
+</p>
+<h2 id="v2box-1">V2Box<a hidden class="anchor" aria-hidden="true" href="index.html#v2box-1">#</a></h2>
+<p><img src="v2box-update.png" alt="V2box"  />
+</p>
+<h2 id="v2rayng-1">v2rayNG<a hidden class="anchor" aria-hidden="true" href="index.html#v2rayng-1">#</a></h2>
+<p><img src="v2rayng-update.png" alt="V2rayNG"  />
+</p>
+<center><b>Все готово!</b></center>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://fizzvpn.io">Fizz VPN</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> · 
+		Based on
+		<a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener noreferrer" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="index.html#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "344f918ffc8e4b609e55df29a00ef20a"}'></script><!-- Cloudflare Pages Analytics --></body>
+
+</html>
